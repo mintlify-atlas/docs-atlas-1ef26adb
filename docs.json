@@ -56,7 +56,8 @@
               "guides/using-exposed-api-keys",
               "guides/voice-search-setup",
               "guides/image-search-setup",
-              "guides/dataset-crawls"
+              "guides/dataset-crawls",
+              "guides/using-trieve-vector-inference"
             ]
           },
           {
@@ -91,6 +92,7 @@
               "api-reference/chunk/delete-chunk",
               "api-reference/chunk/delete-chunk-by-tracking-id",
               "api-reference/chunk/bulk-delete-chunk",
+              "api-reference/chunk/bulk-delete-chunks",
               "api-reference/chunk/split-html-content-into-chunks"
             ]
           },
@@ -289,6 +291,12 @@
             "pages": [
               "api-reference/public/get-apipublic_page",
               "api-reference/public/send-a-shopify-user-event"
+            ]
+          },
+          {
+            "group": "Shopify",
+            "pages": [
+              "api-reference/shopify/post-apishopifyplan_change"
             ]
           }
         ]
